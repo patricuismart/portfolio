@@ -1,6 +1,5 @@
 {
   "name": "devportfolio-template",
-  "homepage": "./",
   "version": "1.2.2",
   "description": "",
   "main": "js/scripts.js",
@@ -10,8 +9,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "watch": "gulp watch",
-    "publish": "cd web && npm run build && cd .. && rm -rf ./public ; mv ./web/build ./public",
-    "githubpages": "rm -rf build ; rm -rf docs && npm run build && mv build docs && git add docs/* && git commit -m \"Publish in GitHub Pages\" && git push"
+    "publish": "cd web && npm run build && cd .. && rm -rf ./public ; mv ./web/build ./public"
   },
   "keywords": [
     "portfolio",

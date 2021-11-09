@@ -1,13 +1,11 @@
 {
-  "name": "devportfolio-template",
+  "name": "portfolio-patricia",
   "homepage": "./",
   "version": "1.2.2",
   "description": "",
   "main": "js/scripts.js",
   "scripts": {
-  
     "watch": "gulp watch"
-
   },
   "keywords": [
     "portfolio",

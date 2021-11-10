@@ -34,7 +34,7 @@
 */
 
 // Define base and accent colors
-$base-color: #80b0ee;
+$base-color: #5660be;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -157,7 +157,7 @@ header {
 
   ul {
     display: inline-block;
-    background: $background;
+    background: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 10px;
     margin: 0;
@@ -386,6 +386,7 @@ footer {
     font-weight: 500;
     font-size: 2.25em;
     margin-bottom: 15px;
+    margin-top: 20px;
   }
 }
 
@@ -397,7 +398,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba($base-color-hover, 0.1);
+  background: rgba($base-color-hover, 0.3);
   z-index: 1;
 }
 
